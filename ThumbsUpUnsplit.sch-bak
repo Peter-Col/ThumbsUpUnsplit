@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:a44key-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1024,12 +1025,38 @@ Text GLabel 6200 4300 0    50   Input ~ 0
 ROW2
 Text GLabel 6200 5100 0    50   Input ~ 0
 ROW3
+$Comp
+L a44key-pcb-rescue:SJ-43514-SJ-43514 J1
+U 1 1 6186D5DF
+P 3850 850
+F 0 "J1" H 3832 1175 50  0000 C CNN
+F 1 "AudioJack3" H 3832 1084 50  0000 C CNN
+F 2 "SJ-43514:CUI_SJ-43514" H 3850 850 50  0001 C CNN
+F 3 "~" H 3850 850 50  0001 C CNN
+	1    3850 850 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3500 5550 3600 5550
 Connection ~ 3500 5550
 Wire Wire Line
 	3700 1950 3600 1950
 Text GLabel 4200 3450 2    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0114
+U 1 1 619786D4
+P 4500 1050
+F 0 "#PWR0114" H 4500 800 50  0001 C CNN
+F 1 "GND" H 4505 877 50  0000 C CNN
+F 2 "" H 4500 1050 50  0001 C CNN
+F 3 "" H 4500 1050 50  0001 C CNN
+	1    4500 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1050 4500 1050
+Text GLabel 4250 750  2    50   Input ~ 0
 SCL
 Text GLabel 4200 4150 2    50   Input ~ 0
 ROW0
@@ -1300,6 +1327,20 @@ F 3 "" H 4750 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 4350 4750 4350
+$Comp
+L power:+5V #PWR0115
+U 1 1 617476F1
+P 4650 950
+F 0 "#PWR0115" H 4650 800 50  0001 C CNN
+F 1 "+5V" H 4665 1123 50  0000 C CNN
+F 2 "" H 4650 950 50  0001 C CNN
+F 3 "" H 4650 950 50  0001 C CNN
+	1    4650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 950  4650 950 
+NoConn ~ 4250 650 
 NoConn ~ 5500 1500
 NoConn ~ 5500 1100
 NoConn ~ 8050 5600

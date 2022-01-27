@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SwitchFootprints)(type KiCad)(uri ${KIPRJMOD}/SwitchFootprints)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid.pretty)(options "")(descr ""))
+)
