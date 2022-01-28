@@ -2481,4 +2481,154 @@ Text GLabel 4200 2650 2    50   Input ~ 0
 COLA
 Text GLabel 4200 4150 2    50   Input ~ 0
 COLB
+$Comp
+L Connector:Conn_01x04_Female J11
+U 1 1 6206CD49
+P 1750 12400
+F 0 "J11" V 1596 12548 50  0000 L CNN
+F 1 "Raiser_Female" V 1687 12548 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1750 12400 50  0001 C CNN
+F 3 "~" H 1750 12400 50  0001 C CNN
+	1    1750 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J12
+U 1 1 6206CD4F
+P 1750 12550
+F 0 "J12" V 1812 12694 50  0000 L CNN
+F 1 "Raiser_Male" V 1903 12694 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 12550 50  0001 C CNN
+F 3 "~" H 1750 12550 50  0001 C CNN
+	1    1750 12550
+	0    1    1    0   
+$EndComp
+NoConn ~ 1550 12200
+NoConn ~ 1650 12200
+NoConn ~ 1750 12200
+NoConn ~ 1850 12200
+NoConn ~ 1550 12750
+NoConn ~ 1650 12750
+NoConn ~ 1750 12750
+NoConn ~ 1850 12750
+$Comp
+L Connector:Conn_01x04_Female J9
+U 1 1 621DC2BB
+P 1750 11550
+F 0 "J9" V 1596 11698 50  0000 L CNN
+F 1 "Raiser_Female" V 1687 11698 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1750 11550 50  0001 C CNN
+F 3 "~" H 1750 11550 50  0001 C CNN
+	1    1750 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 621DC2C5
+P 1750 11700
+F 0 "J10" V 1812 11844 50  0000 L CNN
+F 1 "Raiser_Male" V 1903 11844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 11700 50  0001 C CNN
+F 3 "~" H 1750 11700 50  0001 C CNN
+	1    1750 11700
+	0    1    1    0   
+$EndComp
+NoConn ~ 1550 11350
+NoConn ~ 1650 11350
+NoConn ~ 1750 11350
+NoConn ~ 1850 11350
+NoConn ~ 1550 11900
+NoConn ~ 1650 11900
+NoConn ~ 1750 11900
+NoConn ~ 1850 11900
+$Comp
+L Connector:Conn_01x04_Female J13
+U 1 1 62208DC7
+P 2900 11600
+F 0 "J13" V 2746 11748 50  0000 L CNN
+F 1 "Raiser_Female" V 2837 11748 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2900 11600 50  0001 C CNN
+F 3 "~" H 2900 11600 50  0001 C CNN
+	1    2900 11600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J14
+U 1 1 62208DD1
+P 2900 11750
+F 0 "J14" V 2962 11894 50  0000 L CNN
+F 1 "Raiser_Male" V 3053 11894 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2900 11750 50  0001 C CNN
+F 3 "~" H 2900 11750 50  0001 C CNN
+	1    2900 11750
+	0    1    1    0   
+$EndComp
+NoConn ~ 2700 11400
+NoConn ~ 2800 11400
+NoConn ~ 2900 11400
+NoConn ~ 3000 11400
+NoConn ~ 2700 11950
+NoConn ~ 2800 11950
+NoConn ~ 2900 11950
+NoConn ~ 3000 11950
+$Comp
+L Connector:Conn_01x04_Female J15
+U 1 1 6225ECEC
+P 3050 12400
+F 0 "J15" V 2896 12548 50  0000 L CNN
+F 1 "Raiser_Female" V 2987 12548 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3050 12400 50  0001 C CNN
+F 3 "~" H 3050 12400 50  0001 C CNN
+	1    3050 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J16
+U 1 1 6225ECF6
+P 3050 12550
+F 0 "J16" V 3112 12694 50  0000 L CNN
+F 1 "Raiser_Male" V 3203 12694 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 12550 50  0001 C CNN
+F 3 "~" H 3050 12550 50  0001 C CNN
+	1    3050 12550
+	0    1    1    0   
+$EndComp
+NoConn ~ 2850 12200
+NoConn ~ 2950 12200
+NoConn ~ 3050 12200
+NoConn ~ 3150 12200
+NoConn ~ 2850 12750
+NoConn ~ 2950 12750
+NoConn ~ 3050 12750
+NoConn ~ 3150 12750
+$Comp
+L Connector:Conn_01x04_Female J17
+U 1 1 622DE716
+P 4100 11600
+F 0 "J17" V 3946 11748 50  0000 L CNN
+F 1 "Raiser_Female" V 4037 11748 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4100 11600 50  0001 C CNN
+F 3 "~" H 4100 11600 50  0001 C CNN
+	1    4100 11600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J18
+U 1 1 622DE720
+P 4100 11750
+F 0 "J18" V 4162 11894 50  0000 L CNN
+F 1 "Raiser_Male" V 4253 11894 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4100 11750 50  0001 C CNN
+F 3 "~" H 4100 11750 50  0001 C CNN
+	1    4100 11750
+	0    1    1    0   
+$EndComp
+NoConn ~ 3900 11400
+NoConn ~ 4000 11400
+NoConn ~ 4100 11400
+NoConn ~ 4200 11400
+NoConn ~ 3900 11950
+NoConn ~ 4000 11950
+NoConn ~ 4100 11950
+NoConn ~ 4200 11950
 $EndSCHEMATC
