@@ -1588,7 +1588,6 @@ Wire Wire Line
 	6600 8300 6600 8850
 Wire Wire Line
 	6600 8850 7400 8850
-NoConn ~ 5750 8650
 $Comp
 L Device:D_Small D13
 U 1 1 62565F37
@@ -2631,5 +2630,4 @@ NoConn ~ 3900 11950
 NoConn ~ 4000 11950
 NoConn ~ 4100 11950
 NoConn ~ 4200 11950
-NoConn ~ 8350 10100
 $EndSCHEMATC
